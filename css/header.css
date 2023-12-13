@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .list {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .list li {
+    transition: all 0.3s ease;
+  }
+  
+  .list li:hover {
+    transform: scale(1.02) translateY(-2px);
+  }
+  
+  .nav-link {
+    color: gray;
+  }
+  
+  .nav-link:hover {
+    color: rgb(42, 41, 41);
+    border-bottom: 3px solid red;
+  }
+  
+  .menu {
+    display: none;
+  }

@@ -1,0 +1,14 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns:  2fr 0.5fr;
+  /* grid-template-rows: repeat(6); */
+  gap: 1em;
+  margin-bottom: 8em;
+}
+
+.post img {
+    width: 80%;
+}
+
